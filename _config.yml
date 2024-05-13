@@ -1,8 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: <span style="font-variant:small-caps;">Requiem</span>
+description: Supplementary data and details for <span style="font-variant:small-caps;">Requiem</span>
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://projrequiem.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/projrequiem/projrequiem.github.io
+
+# plugins:
+#   - jekyll-default-layout
