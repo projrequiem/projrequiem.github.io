@@ -50,6 +50,10 @@ For each demonstration, we consider the following trajectories
 
 A black `X` mark indicates that the attack triggered an anomaly detector,
 
+<video controls="" width="640" height="360" muted="" loop="" autoplay="">
+<source src="/videos/demo.mp4" type="video/mp4">
+</video>
+
 ## Circle
 
 ### <span style="font-variant:small-caps;">Requiem</span>: Direction Bias
