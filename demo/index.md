@@ -124,15 +124,15 @@ A black `X` mark indicates that the attack triggered an anomaly detector,
 
 ### Normal
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/videos/Hold/Requiem_Demo_Windy_North_Circle_Normal.mp4" type="video/mp4">
+<source src="/videos/Circle/Requiem_Demo_Windy_North_Circle_Normal.mp4" type="video/mp4">
 </video>
 
 ### <span style="font-variant:small-caps;">Requiem</span>: No Correction
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/videos/Hold/Requiem_Demo_Windy_North_Circle_NC.mp4" type="video/mp4">
+<source src="/videos/Circle/Requiem_Demo_Windy_North_Circle_NC.mp4" type="video/mp4">
 </video>
 
 ### <span style="font-variant:small-caps;">Requiem</span>: Direction Bias
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/videos/Hold/Requiem_Demo_Windy_North_Circle_DB.mp4" type="video/mp4">
+<source src="/videos/Circle/Requiem_Demo_Windy_North_Circle_DB.mp4" type="video/mp4">
 </video>
