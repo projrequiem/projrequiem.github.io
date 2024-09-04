@@ -56,53 +56,68 @@ A black `X` mark indicates that the attack triggered an anomaly detector,
 
 ## Circle
 
+### Normal
+<video controls="" width="640" height="360" muted="" loop="" autoplay="">
+<source src="/videos/Circle/Requiem_Demo_Circle_Normal.mp4" type="video/mp4">
+</video>
+
 ### <span style="font-variant:small-caps;">Requiem</span>: Direction Bias
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/figures/circle/requiem_db.mp4" type="video/mp4">
+<source src="/videos/Circle/Requiem_Demo_Circle_DB.mp4" type="video/mp4">
 </video>
 
 ### <span style="font-variant:small-caps;">Requiem</span>: No Correction
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/figures/circle/requiem_nc.mp4" type="video/mp4">
+<source src="/videos/Circle/Requiem_Demo_Circle_NC.mp4" type="video/mp4">
 </video>
 
 ### Naive: Position Boiling Frog
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/figures/circle/naive_pbf.mp4" type="video/mp4">
+<source src="/videos/Circle/Requiem_Demo_Circle_PBF.mp4" type="video/mp4">
 </video>
 
 ## Linear
 
+### Normal
+<video controls="" width="640" height="360" muted="" loop="" autoplay="">
+<source src="/videos/Linear/Requiem_Demo_Linear_Normal.mp4" type="video/mp4">
+</video>
+
 ### <span style="font-variant:small-caps;">Requiem</span>: Direction Bias
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/figures/linear/requiem_db.mp4" type="video/mp4">
+<source src="/videos/Linear/Requiem_Demo_Linear_DB.mp4" type="video/mp4">
 </video>
 
 ### <span style="font-variant:small-caps;">Requiem</span>: No Correction 
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/figures/linear/requiem_nc.mp4" type="video/mp4">
+<source src="/videos/Linear/Requiem_Demo_Linear_NC.mp4" type="video/mp4">
 </video>
 
 ### Naive: Position Boiling Frog
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/figures/linear/naive_pbf.mp4" type="video/mp4">
+<source src="/videos/Linear/Requiem_Demo_Linear_PBF.mp4" type="video/mp4">
 </video>
 
 ## Hold
 
+### Normal
+<video controls="" width="640" height="360" muted="" loop="" autoplay="">
+<source src="/videos/Hold/Requiem_Demo_Hold_Normal.mp4" type="video/mp4">
+</video>
+
 ### <span style="font-variant:small-caps;">Requiem</span>: Direction Bias
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/figures/hold/requiem_db.mp4" type="video/mp4">
+<source src="/videos/Hold/Requiem_Demo_Hold_DB.mp4" type="video/mp4">
 </video>
 
 ### <span style="font-variant:small-caps;">Requiem</span>: No Correction
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/figures/hold/requiem_nc.mp4" type="video/mp4">
+<source src="/videos/Hold/Requiem_Demo_Hold_NC.mp4" type="video/mp4">
 </video>
 
 ### Naive: Position Boiling Frog
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/figures/hold/naive_pbf.mp4" type="video/mp4">
+<source src="/videos/Hold/Requiem_Demo_Hold_PBF.mp4" type="video/mp4">
 </video>
 
 
