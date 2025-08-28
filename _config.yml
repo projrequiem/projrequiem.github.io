@@ -1,12 +1,12 @@
 title: <span style="font-variant:small-caps;">Requiem</span>
 description: Supplementary data and details for <span style="font-variant:small-caps;">Requiem</span>
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
 url: https://projrequiem.github.io
 
 aux_links:
   Template Repository: https://github.com/projrequiem/projrequiem.github.io
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
+# plugins:
+#   - jekyll-remote-theme
+#   - jekyll-seo-tag
