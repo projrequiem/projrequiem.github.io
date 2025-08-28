@@ -9,3 +9,4 @@ aux_links:
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
