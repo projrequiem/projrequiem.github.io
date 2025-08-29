@@ -12,6 +12,6 @@ An example effect of the attack is shown in the video below where the vehicle th
 <iframe width="640" height="480" src="https://www.youtube.com/embed/DLKkZ7eNJrY" title="Example" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The website serves as a supplement to the <span style="font-variant:small-caps;">Requiem</span> paper.
-Please visit [our github repo][sauce] for the source code.
+Please visit [our github repo][sauce] (coming soon) for the source code.
 
 [sauce]: https://github.com/projrequiem/requiem
