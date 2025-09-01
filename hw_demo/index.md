@@ -20,7 +20,7 @@ We demonstrate requiem on real drone hardware evaluated on the following mission
 - Vicon Valkyrie
 
 
-## Setup
+<!-- ## Setup -->
 
 
 <!-- ![setup_diagram](/figures/av_diagram.png)
@@ -54,13 +54,14 @@ A black `X` mark indicates that the attack triggered an anomaly detector,
 <source src="/videos/Linear/HW_Demo_Linear_Requiem.mp4" type="video/mp4">
 </video>
 
-<!-- 
 ### Naive: Position Boiling Frog
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/videos/Linear/Requiem_Demo_Linear_PBF.mp4" type="video/mp4">
-</video> -->
+<source src="/videos/Linear/HW_Demo_Linear_PBF.mp4" type="video/mp4">
+</video>
 
 ## Hold
+
+To be uploaded soon
 
 <!-- ### Normal
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
