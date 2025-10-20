@@ -45,6 +45,7 @@ A black `X` mark indicates that the attack triggered an anomaly detector,
 
 ## Linear
 
+<<<<<<< HEAD
 ### Normal
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
 <source src="/videos/Linear/HW_Demo_Linear_Normal.mp4" type="video/mp4">
@@ -56,29 +57,10 @@ A black `X` mark indicates that the attack triggered an anomaly detector,
 
 ### Naive: Position Boiling Frog
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
+<<<<<<< HEAD
 <source src="/videos/Linear/HW_Demo_Linear_PBF.mp4" type="video/mp4">
 </video>
 
 ## Hold
 
 To be uploaded soon
-
-<!-- ### Normal
-<video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/videos/Hold/Requiem_Demo_Hold_Normal.mp4" type="video/mp4">
-</video>
-
-### <span style="font-variant:small-caps;">Requiem</span>: Direction Bias
-<video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/videos/Hold/Requiem_Demo_Hold_DB.mp4" type="video/mp4">
-</video>
-
-### <span style="font-variant:small-caps;">Requiem</span>: No Correction
-<video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/videos/Hold/Requiem_Demo_Hold_NC.mp4" type="video/mp4">
-</video>
-
-### Naive: Position Boiling Frog
-<video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/videos/Hold/Requiem_Demo_Hold_PBF.mp4" type="video/mp4">
-</video> -->
