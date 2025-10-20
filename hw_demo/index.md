@@ -45,7 +45,6 @@ A black `X` mark indicates that the attack triggered an anomaly detector,
 
 ## Linear
 
-<<<<<<< HEAD
 ### Normal
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
 <source src="/videos/Linear/HW_Demo_Linear_Normal.mp4" type="video/mp4">
