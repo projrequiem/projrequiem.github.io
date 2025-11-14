@@ -76,3 +76,11 @@ A black `X` mark indicates that the attack triggered an anomaly detector,
 <<<<<<< HEAD
 <source src="/videos/Hold/HW_Demo_Hold_PBF.mp4" type="video/mp4">
 </video>
+
+
+## Circle
+
+### Normal
+<video controls="" width="640" height="360" muted="" loop="" autoplay="">
+<source src="/videos/Hold/HW_Demo_Circle_Normal.mp4" type="video/mp4">
+</video>
