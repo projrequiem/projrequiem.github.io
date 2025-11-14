@@ -62,4 +62,17 @@ A black `X` mark indicates that the attack triggered an anomaly detector,
 
 ## Hold
 
-To be uploaded soon
+### Normal
+<video controls="" width="640" height="360" muted="" loop="" autoplay="">
+<source src="/videos/Hold/HW_Demo_Hold_Normal.mp4" type="video/mp4">
+</video>
+### <span style="font-variant:small-caps;">Requiem</span>: No Correction 
+<video controls="" width="640" height="360" muted="" loop="" autoplay="">
+<source src="/videos/Hold/HW_Demo_Hold_Requiem.mp4" type="video/mp4">
+</video>
+
+### Naive: Position Boiling Frog
+<video controls="" width="640" height="360" muted="" loop="" autoplay="">
+<<<<<<< HEAD
+<source src="/videos/Hold/HW_Demo_Hold_PBF.mp4" type="video/mp4">
+</video>
