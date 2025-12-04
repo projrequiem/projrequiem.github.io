@@ -81,8 +81,8 @@ A black `X` mark indicates that the attack triggered an anomaly detector,
 ## Circle
 
 ### Normal
-<video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/videos/Hold/HW_Demo_Circle_Normal.webm" type="video/webm">
+<video controls="" width="640" height="360" muted loop="" autoplay="">
+<source src="/videos/Hold/HW_Demo_Circle_Normal.mp4" type="video/mp4">
 </video>
 
 Due to space constraints of the flying arena and safety considerations, we only evaluate attacks for linear and hold mission in hardware; circular movements are difficult to execute safely as it is challenging to predict whether the quadrotor will collide with the net.
