@@ -7,6 +7,10 @@ nav_order: 3
 # Description
 
 We demonstrate requiem on real drone hardware evaluated on the following missions: Linear and Hold.
+The following scenarios are considered:
+- Normal - A mission without any attacks
+- <span style="font-variant:small-caps;">Requiem</span>: No Correction - an attack that prevents the control from correcting north position value by injecting values to the mocap (i.e., Vicon) north position value while making the north position value seem nominal.
+- Naive: Position Boiling Frog - slowly increase the value injected into mocap north position value at the rate of 1m/min (e.g., after 30 seconds of this attack, the magnitude of the injection is 0.5m )
 
 # Specifications
 
@@ -19,44 +23,28 @@ We demonstrate requiem on real drone hardware evaluated on the following mission
 - Four 780kv motor
 - Vicon Valkyrie
 
-
-<!-- ## Setup -->
-
-
-<!-- ![setup_diagram](/figures/av_diagram.png)
-
-[popen]: https://docs.python.org/3/library/subprocess.html -->
-
 # Demonstrations
-<!-- 
-For each demonstration, we consider the following trajectories
-- Planned trajectory: Ideal mission trajectory (black line)
-- Normal trajectory: Trajectory of the vehicle when there are no attacks (blue line)
-- Attack Trajectory: True trajectory of the vehicle while under attack (red line)
-- System POV Trajectory: Trajectory the system believes to have taken while under attack (dashed green line)
-- Overt Trajectory: Attack trajectory after anomaly detector alarms (dashed red line)
-
-A black `X` mark indicates that the attack triggered an anomaly detector,
-
-<video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<source src="/videos/demo.mp4" type="video/mp4">
-</video> -->
-
 
 ## Linear
 
+After the takeoff, the vehicle moves to (1m, 0m), (1m, 1m) then back to (0m, 0m) from the starting point in east-north coordinate.
+A right isosceles traingle with 1m sides is taped on to the floor for visual reference.
+
 ### Normal
+The drone moves along the triangle as expected.
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
 <source src="/videos/Linear/HW_Demo_Linear_Normal.mp4" type="video/mp4">
 </video>
+
 ### <span style="font-variant:small-caps;">Requiem</span>: No Correction 
+The result is reflective of the simulation experiment: <span style="font-variant:small-caps;">Requiem</span> causes the most deviation during the northward movement by causing the control to unable to notice that the vehicle overshot.
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
 <source src="/videos/Linear/HW_Demo_Linear_Requiem.mp4" type="video/mp4">
 </video>
 
 ### Naive: Position Boiling Frog
+Similar to the simulation result, PBF did not cause much deviation. 
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<<<<<<< HEAD
 <source src="/videos/Linear/HW_Demo_Linear_PBF.mp4" type="video/mp4">
 </video>
 
@@ -66,6 +54,7 @@ A black `X` mark indicates that the attack triggered an anomaly detector,
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
 <source src="/videos/Hold/HW_Demo_Hold_Normal.mp4" type="video/mp4">
 </video>
+
 ### <span style="font-variant:small-caps;">Requiem</span>: No Correction 
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
 <source src="/videos/Hold/HW_Demo_Hold_Requiem.mp4" type="video/mp4">
@@ -73,7 +62,6 @@ A black `X` mark indicates that the attack triggered an anomaly detector,
 
 ### Naive: Position Boiling Frog
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
-<<<<<<< HEAD
 <source src="/videos/Hold/HW_Demo_Hold_PBF.mp4" type="video/mp4">
 </video>
 
