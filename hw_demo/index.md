@@ -37,7 +37,7 @@ The drone moves along the triangle as expected.
 </video>
 
 ### <span style="font-variant:small-caps;">Requiem</span>: No Correction 
-The result is reflective of the simulation experiment: <span style="font-variant:small-caps;">Requiem</span> causes the most deviation during the northward movement by causing the control to unable to notice that the vehicle overshot.
+The result is reflective of the simulation experiment: <span style="font-variant:small-caps;">Requiem</span> causes the most deviation during the northward movement by causing the control to unable to notice that the vehicle overshot while remaining stealthy.
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
 <source src="/videos/Linear/HW_Demo_Linear_Requiem.mp4" type="video/mp4">
 </video>
