@@ -8,7 +8,7 @@ nav_order: 2
 
 # Query Server Implementation Detail
 
-To query the target function without running other components in the system and to simultaneously preserve the blackbox aspect, we isolated the state update code.
+To query the target function without running other components in the system and to simultaneously preserve the opaque aspect, we isolated the state update code.
 When the input is provided in JSON, the result is also sent back to the client JSON after the function is executed.
 
 # Attack Vector Implementation Detail
@@ -17,7 +17,7 @@ The objective of the attack vector is to perform man-in-the-middle (MitM) before
 It exfiltrates the necessary data and inject values into the sensor that are used as input for the update.
 It can be achieved by scanning the memory for the input variables for exfiltration and manipulating the memory reponsible for the sensor values.
 <!-- To simplify the implementation while preserving the blackbox aspect of the attack, exfiltration and sensor value injection code are -->
-To preserve essence of the attack (e.g., the blackbox perspective) and to avoid potential implementation bugs, we reuse the code in the query server implementation for exfiltration.
+To preserve essence of the attack (e.g., the opaque perspective) and to avoid potential implementation bugs, we reuse the code in the query server implementation for exfiltration.
 The exfiltration code is placed before the execution of the update function, resulting in <span style="font-variant:small-caps;">Requiem</span> being **oblivious** of the state update implementation (i.e., the target function). 
 Attack server sends an array of values to inject.
 The data is exchanged using `mmap` and TCP packets.
