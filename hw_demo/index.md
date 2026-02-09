@@ -10,7 +10,7 @@ We demonstrate requiem on real drone hardware evaluated on the following mission
 The following scenarios are considered:
 - Normal - A mission without any attacks
 - <span style="font-variant:small-caps;">Requiem</span>: No Correction - an attack that prevents the control from correcting north position value by injecting values to the mocap (i.e., Vicon) north position value while making the north position value seem nominal.
-- Naive: Position Boiling Frog - slowly increase the value injected into mocap north position value at the rate of 1m/min (e.g., after 30 seconds of this attack, the magnitude of the injection is 0.5m )
+- Baseline: Position Boiling Frog - slowly increase the value injected into mocap north position value at the rate of 1m/min (e.g., after 30 seconds of this attack, the magnitude of the injection is 0.5m )
 
 # Specifications
 
@@ -42,7 +42,7 @@ The result is reflective of the simulation experiment: <span style="font-variant
 <source src="/videos/Linear/HW_Demo_Linear_Requiem.mp4" type="video/mp4">
 </video>
 
-### Naive: Position Boiling Frog
+### Baseline: Position Boiling Frog
 Similar to the simulation result, PBF did not cause much deviation. 
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
 <source src="/videos/Linear/HW_Demo_Linear_PBF.mp4" type="video/mp4">
@@ -60,7 +60,7 @@ Similar to the simulation result, PBF did not cause much deviation.
 <source src="/videos/Hold/HW_Demo_Hold_Requiem.mp4" type="video/mp4">
 </video>
 
-### Naive: Position Boiling Frog
+### Baseline: Position Boiling Frog
 <video controls="" width="640" height="360" muted="" loop="" autoplay="">
 <source src="/videos/Hold/HW_Demo_Hold_PBF.mp4" type="video/mp4">
 </video>
